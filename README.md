@@ -29,7 +29,7 @@ reportgenerator -reports:"TestResults\Coverage\EBroker.coverage.xml" -targetdir:
 
 Assumptions & Key Points :-
 
-1. Bare minimum see data is used for testing.
+1. Bare minimum seed data is used for testing.
 2. This application is not fully optimized as it was creadted to testing only.
 3. All the best practices are not followed.
 4. This application ins not production ready.
