@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31229.75
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "eBroker", "eBroker.csproj", "{B9BC0430-FCBF-4A20-B086-8DF267D01B35}"
+	ProjectSection(ProjectDependencies) = postProject
+		{E8A8E728-047B-4725-8D27-DF33FE62BD12} = {E8A8E728-047B-4725-8D27-DF33FE62BD12}
+		{8C7345ED-ECE0-4868-AF0F-A9A955BF44B4} = {8C7345ED-ECE0-4868-AF0F-A9A955BF44B4}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "eBroker.Service", "..\eBroker.Service\eBroker.Service.csproj", "{E8A8E728-047B-4725-8D27-DF33FE62BD12}"
+	ProjectSection(ProjectDependencies) = postProject
+		{BB2A3025-DFC3-4EE5-9280-280B8C485C6A} = {BB2A3025-DFC3-4EE5-9280-280B8C485C6A}
+		{8C7345ED-ECE0-4868-AF0F-A9A955BF44B4} = {8C7345ED-ECE0-4868-AF0F-A9A955BF44B4}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "eBroker.DataAccess", "..\eBroker.DataAccess\eBroker.DataAccess.csproj", "{8C7345ED-ECE0-4868-AF0F-A9A955BF44B4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "eBroker.Models", "..\eBroker.Models\eBroker.Models.csproj", "{BB2A3025-DFC3-4EE5-9280-280B8C485C6A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eBroker.Test", "..\eBroker.Test\eBroker.Test.csproj", "{7EE035A6-D433-48D5-99BD-881B5B9BDC62}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B9BC0430-FCBF-4A20-B086-8DF267D01B35}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9BC0430-FCBF-4A20-B086-8DF267D01B35}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9BC0430-FCBF-4A20-B086-8DF267D01B35}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9BC0430-FCBF-4A20-B086-8DF267D01B35}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8A8E728-047B-4725-8D27-DF33FE62BD12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8A8E728-047B-4725-8D27-DF33FE62BD12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8A8E728-047B-4725-8D27-DF33FE62BD12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8A8E728-047B-4725-8D27-DF33FE62BD12}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C7345ED-ECE0-4868-AF0F-A9A955BF44B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C7345ED-ECE0-4868-AF0F-A9A955BF44B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C7345ED-ECE0-4868-AF0F-A9A955BF44B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C7345ED-ECE0-4868-AF0F-A9A955BF44B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB2A3025-DFC3-4EE5-9280-280B8C485C6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB2A3025-DFC3-4EE5-9280-280B8C485C6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB2A3025-DFC3-4EE5-9280-280B8C485C6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB2A3025-DFC3-4EE5-9280-280B8C485C6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7EE035A6-D433-48D5-99BD-881B5B9BDC62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EE035A6-D433-48D5-99BD-881B5B9BDC62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EE035A6-D433-48D5-99BD-881B5B9BDC62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EE035A6-D433-48D5-99BD-881B5B9BDC62}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {33EAC4E9-05B7-4093-B1DF-FEA60C135559}
+	EndGlobalSection
+EndGlobal
